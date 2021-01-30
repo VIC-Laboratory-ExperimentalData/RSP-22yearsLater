@@ -52,8 +52,8 @@ ShowRSSPStimuli1.RTTime		:
 ShowSimStimuli.ACC		: same in a feature-asynchronous trial or NULL
 ShowSimStimuli.CRESP		:
 ShowSimStimuli.RESP		:
-ShowSimStimuli.RT			:
-ShowSimStimuli.RTTime	:
+ShowSimStimuli.RT		:
+ShowSimStimuli.RTTime		:
 
 TrialLists			: position in the trial list of the current trial attributes (1 to 108)
 TrialLists.Cycle		: number of time the list is used (1 to 6) (same as BlockList.Sample)
