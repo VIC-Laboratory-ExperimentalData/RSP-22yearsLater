@@ -16,9 +16,9 @@ Group				: always 1
 RandomSeed			: for each session, seed used by the experiment
 RuntimeCapabilities		: type of runtime program
 RuntimeVersion			: runtime version (always 2.0.10.356)
-RuntimeVersionExpected	: expected runtime version (same)
+RuntimeVersionExpected		: expected runtime version (same)
 SessionDate			: current date (mm-dd-yyyy)
-SessionStartDateTimeUtc	: universal time of the session
+SessionStartDateTimeUtc		: universal time of the session
 SessionTime			: local time (GMT - 5)
 StudioVersion			: E-Studio version (always 2.0.10.252)
 Block				: block number (1 to 6 within a session)
@@ -28,33 +28,33 @@ BlockLists.Sample		: same as Block
 Procedure[Block]		: name of the block procedure (always OneBlock)
 Running[Block]			: name of the block list (always BlockLists)
 Trial				: trial number within a block (from 1 to 108)
-Condition				: condition number (10=simultaneous; 20=stimulus asychron; 30=feature asynchron.)
-DSet					: stimulus identity (A to B: targets; W to Z: foils; +: empty)
+Condition			: condition number (10=simultaneous; 20=stimulus asychron; 30=feature asynchron.)
+DSet				: stimulus identity (A to B: targets; W to Z: foils; +: empty)
 DSize				: number of display items (1 to 4)
-ISI					: interstimulus interval (0 for sim; 16, 33 or 50 for asynchron.)
+ISI				: interstimulus interval (0 for sim; 16, 33 or 50 for asynchron.)
 Order				: diagnostic first (1) or last (2) order of presentation
 Procedure[Trial]		: trial procedure (either OneSim, OneRSFP or OneRSSP)
-Response				: target present (1) or absent (2) trial 
+Response			: target present (1) or absent (2) trial 
 Running[Trial]			: list containing the trials (always TrialLists)
 
-ShowRSFPStimuli1.ACC	: Accuracy in a feature-asychron. trial (1=correct; 0=error; 2= no response) or NULL
-ShowRSFPStimuli1.CRESP	: expected response
-ShowRSFPStimuli1.RESP	: given response (if expected = given, then ACC =1)
+ShowRSFPStimuli1.ACC		: Accuracy in a feature-asychron. trial (1=correct; 0=error; 2= no response) or NULL
+ShowRSFPStimuli1.CRESP		: expected response
+ShowRSFPStimuli1.RESP		: given response (if expected = given, then ACC =1)
 ShowRSFPStimuli1.RT		: response time
-ShowRSFPStimuli1.RTTime	: cumulative response time since experiment began
+ShowRSFPStimuli1.RTTime		: cumulative response time since experiment began
 
-ShowRSSPStimuli1.ACC	: same in a stimulus-asynchronous trial or NULL
-ShowRSSPStimuli1.CRESP	: 
-ShowRSSPStimuli1.RESP	:
+ShowRSSPStimuli1.ACC		: same in a stimulus-asynchronous trial or NULL
+ShowRSSPStimuli1.CRESP		: 
+ShowRSSPStimuli1.RESP		:
 ShowRSSPStimuli1.RT		:
-ShowRSSPStimuli1.RTTime	:
+ShowRSSPStimuli1.RTTime		:
 
 ShowSimStimuli.ACC		: same in a feature-asynchronous trial or NULL
-ShowSimStimuli.CRESP	:
+ShowSimStimuli.CRESP		:
 ShowSimStimuli.RESP		:
-ShowSimStimuli.RT		:
+ShowSimStimuli.RT			:
 ShowSimStimuli.RTTime	:
 
-TrialLists				: position in the trial list of the current trial attributes (1 to 108)
+TrialLists			: position in the trial list of the current trial attributes (1 to 108)
 TrialLists.Cycle		: number of time the list is used (1 to 6) (same as BlockList.Sample)
 TrialLists.Sample		: trial number (same as Trial)
