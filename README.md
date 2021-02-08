@@ -1,6 +1,6 @@
 # RSP-22yearsLater
 
-This folder contains the programs and the data from a follow-up study of Cousineau & Shiffrin (2004). The purpose is to see how much of the training remains after this long period of time. Of the four participants in the original study, only D. Cousineau can be located and he agreed to run an additional 20 sessions of the same 3 conditions. 
+This folder contains the programs and the data from a follow-up study of Cousineau & Shiffrin (2004). The purpose is to see how much of the training remains after this long period of time. Of the four participants in the original study, only D. Cousineau can be located and he agreed to run additional sessions of the same 3 conditions. 
 
 
 
