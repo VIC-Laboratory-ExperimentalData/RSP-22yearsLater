@@ -1,7 +1,7 @@
 # Material
 
 This folder contains the experiment and the stimuli files. There are three sets of stimuli
-* SubStimuli: these are just letters with +/- to indicate the order. Used for programming and testing the experiment only.
+* SubStimuli-FAKE: these are just letters with +/- to indicate the order. Used for programming and testing the experiment only.
 * SubStimuli-CCC: these are the original CCC stimuli that were used in 1998 in Cousineau & Shiffrin.
 * SubStimuli-MYST: these are newer stimuli, with the same underlying structure (a conjunction of two features is 100% diagnostic).
 
